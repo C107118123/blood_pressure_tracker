@@ -15,7 +15,7 @@ TextStyle get homeScreenTextStyle => const TextStyle(
     );
 
 TextStyle get parameterNameBigTextStyle => const TextStyle(
-      fontSize: 32.0,
+      fontSize: 30.0,
       fontWeight: FontWeight.w600,
       color: Colors.black54,
     );
@@ -23,19 +23,19 @@ TextStyle get parameterNameBigTextStyle => const TextStyle(
 TextStyle get parameterNameSmallTextStyle => entryCardTextStyle;
 
 TextStyle get parameterValueTextStyle => const TextStyle(
-      fontSize: 36.0,
+      fontSize: 34.0,
       fontWeight: FontWeight.w600,
       color: Colors.black54,
     );
 
 TextStyle get entryCardTextStyle => const TextStyle(
-      fontSize: 16.0,
+      fontSize: 14.0,
       fontWeight: FontWeight.w600,
       color: Colors.black38,
     );
 
 TextStyle get dropdownButtonTextStyle => const TextStyle(
-      fontSize: 18.0,
+      fontSize: 16.0,
       fontWeight: FontWeight.w600,
       color: Colors.black54,
     );
