@@ -21,7 +21,7 @@ class EntryDialogTextFormField extends TextFormField {
   }) : super(
           key: key,
           controller: controller,
-          cursorWidth: 3.0,
+          cursorWidth: 3.1,
           cursorColor: Theme.of(context).accentColor,
           textAlign: TextAlign.center,
           keyboardType: TextInputType.number,
@@ -30,14 +30,14 @@ class EntryDialogTextFormField extends TextFormField {
             FilteringTextInputFormatter.digitsOnly,
           ],
           style: TextStyle(
-            fontSize: 24.0,
+            fontSize: 22.0,
             fontWeight: FontWeight.w600,
             color: Colors.black54,
           ),
           decoration: InputDecoration(
             labelText: labelText,
             labelStyle: TextStyle(
-              fontSize: 20.0,
+              fontSize: 18.0,
               fontWeight: FontWeight.normal,
               //color: Colors.black45,
             ),

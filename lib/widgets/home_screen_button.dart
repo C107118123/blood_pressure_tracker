@@ -20,7 +20,7 @@ class HomeScreenButton extends StatelessWidget {
       color: Theme.of(context).accentColor,
       child: Text(
         text,
-        style: TextStyle(fontSize: 26.0, fontWeight: FontWeight.w600),
+        style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.w600),
       ),
       onPressed: onPressed,
     );
