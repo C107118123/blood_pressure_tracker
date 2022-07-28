@@ -15,7 +15,7 @@ TextStyle get homeScreenTextStyle => const TextStyle(
     );
 
 TextStyle get parameterNameBigTextStyle => const TextStyle(
-      fontSize: 30.0,
+      fontSize: 28.0,
       fontWeight: FontWeight.w600,
       color: Colors.black54,
     );
